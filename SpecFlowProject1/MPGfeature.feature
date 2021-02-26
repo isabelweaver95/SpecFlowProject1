@@ -36,7 +36,7 @@ Scenario: payment validation
 	Given price per gallon is 2
 	And your card amount is 20
 	When calc_pay is called
-	Then the payment should be 10
+	Then the gallons should be 10
 
 Scenario: Fuel up
 	Given Gallons used is 100

@@ -158,7 +158,7 @@ namespace SpecFlowProject1
                    ));
         }
 
-        [Then(@"the payment should be (.*)")]
+        [Then(@"the gallons should be (.*)")]
         public void ThenThePaymentShouldBe(int p0)
         {
             var m = _scenarioContext.Get<float>("payment");
