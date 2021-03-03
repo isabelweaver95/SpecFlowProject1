@@ -43,3 +43,4 @@ Scenario: Fuel up
 	And the tank is 5
 	When calc_fuelUse
 	Then the times stoped should be 20
+
